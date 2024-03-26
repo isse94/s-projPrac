@@ -1,0 +1,97 @@
+body {
+    background-color: #C4BEB5;
+    /* margin: 0; */
+    padding: 0;
+    
+}
+
+#logo-img {
+    text-align: center;
+    color: #1c1c1c;
+}
+#logo-img img {
+    display: block; 
+    margin: 0 auto; 
+    width: 20%;
+}
+
+.navbar {
+    background-color: #1c1c1c;
+}
+.navbar ul{
+margin:20px;
+padding: 5px;
+margin: 10px;
+;
+}
+.navbar a{
+    color: #C4BEB5;
+    text-decoration: none;
+}
+
+.nav-right{
+float: right;
+float: right;
+margin-left: 10px;
+}
+
+
+#menu-info {
+    text-align: center;
+}
+
+#menu-info img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 100%; /* Increase image width */
+}
+
+#menu-info p {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+/* New CSS for the drinks container and items */
+.menu-container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: center; /* Center the items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.menu-item {
+    flex: 0 0 25%; /* Each item takes up 25% of the container's width */
+    margin: 0 1%; /* Add a small margin between items */
+    text-align: center; /* Center the content horizontally */
+}
+
+.menu-item img {
+    width: 100%; /* Make the image fill the container */
+}
+
+.menu-item p {
+    margin-top: 5px; /* Add a small margin on top of the paragraph */
+}
+
+
+
+.footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    color: #C4BEB5;
+    text-decoration: none;
+    padding: 5px; /* Add padding for better spacing */
+    margin: 0; /* Remove default margin */
+}
+
+.footer a {
+    text-decoration: none; /* Remove underline */
+    color: #C4BEB5; /* Set link color */
+    margin-right: 10px; /* Add margin between links */
+}
+
+/* .footer a:hover {
+    text-decoration: underline;
+} */
